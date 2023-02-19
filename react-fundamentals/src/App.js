@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
        
         <p>
-            Basic App
+            Welcome To React
         </p>
       
       </header>
