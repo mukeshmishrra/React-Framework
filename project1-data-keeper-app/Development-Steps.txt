@@ -1,0 +1,10 @@
+1. create react app with app name data-keeper-app.
+    npx create-react-app data-keeper-app 
+
+2. create a component folder and create a header component.
+
+3. install material component package 
+    npm install @mui/material @emotion/react @emotion/styled
+    npm install @mui/icons-material
+
+4. 

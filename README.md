@@ -1,2 +1,2 @@
-# React-Framework
-React version 18 Projects
+how to run this project
+npm start
