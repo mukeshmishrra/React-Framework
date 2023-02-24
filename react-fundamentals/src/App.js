@@ -12,10 +12,10 @@ function App() {
     <BrowserRouter>
     <Header />
       <Routes>
-          <Route index element={ <Home /> } />
-          <Route path='/about' element={ <About /> } />
-          <Route path='/service' element={ <Service /> } /> 
-          <Route path='*' element={ <PageNotFound />} />    
+          <Route exact index element={ <Home /> } />
+          <Route exact path='/about' element={ <About /> } />
+          <Route exact path='/service' element={ <Service /> } /> 
+          <Route exact path='*' element={ <PageNotFound />} />    
       </Routes>
     </BrowserRouter>
     </>

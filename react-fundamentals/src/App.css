@@ -63,3 +63,8 @@ a {
   font-weight: 700;
   color: black;
 }
+
+.active {
+  color: red!important;
+  font-weight: 700;
+}
