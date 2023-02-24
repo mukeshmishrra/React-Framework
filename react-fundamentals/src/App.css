@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: lightgrey;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.list-item {
+  text-decoration: none !important;
+  display: flex;
+}
+
+.link-item {
+  padding-left: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
