@@ -14,7 +14,7 @@ this was the amazing thing.
 
 -------------------------------------------------------------------------
 
-Component
+# Component
 
 component ek function hai jo ki jsx return krta hai.
 jsx -> javascript xml 
@@ -28,8 +28,9 @@ output --> 2+2
 <h1>{ 2+2 }</h1>
 output <h1> 4 </h1>
 
+-------------------------------------------------------------------------
+# Styling in react
+style = {{ color: "red" }}
 
-
-
-
-
+<div className="main"></div>
+-----------------------------------------------------------------------
