@@ -1,6 +1,9 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({userName}) => {
+
+    // console.log("USERNAME; ", props.userName)
+
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
@@ -23,7 +26,7 @@ const Header = () => {
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Product</a>
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Features</a>
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Company</a>
+            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">{userName}</a>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
