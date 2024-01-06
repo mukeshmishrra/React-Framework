@@ -1,8 +1,8 @@
-# React + Vite
+# Counter App - Create by Mukesh Mishra 
+Feature - there are two buttons where we can increase and decrease the 
+value of a count.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+i have created this app to boost my hooks knowledge.
+useState : - this hooks is used to propagate/render the changes in the ui.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Alt Text](C:\Users\User\Pictures\Screenshots\counterApp.PNG)
