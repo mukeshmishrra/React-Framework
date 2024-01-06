@@ -5,4 +5,4 @@ value of a count.
 i have created this app to boost my hooks knowledge.
 useState : - this hooks is used to propagate/render the changes in the ui.
 
-![Alt Text](C:\Users\User\Pictures\Screenshots\counterApp.PNG)
+<img width="549" alt="counterApp" src="https://github.com/mukeshmishrra/React-Framework/assets/88608361/f2f27451-d52a-41be-b609-1d2c840b43cc">
