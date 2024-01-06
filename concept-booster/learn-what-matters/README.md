@@ -12,7 +12,14 @@ are going to change from the dom tree not whole tree.
 
 this was the amazing thing. 
 
--------------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+# JSX  - JavaScript XML 
+single curly braces use kar sakte hain.  
+
+const username = "mukesh"
+
+html template -->   Hello { username }
 
 # Component
 
@@ -34,3 +41,5 @@ style = {{ color: "red" }}
 
 <div className="main"></div>
 -----------------------------------------------------------------------
+
+# Hooks Introduction and Use 
