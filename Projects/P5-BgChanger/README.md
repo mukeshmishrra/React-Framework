@@ -1,8 +1,4 @@
-# React + Vite
+# Background/Theme Changer Software
+This is a basic software. i have created here multiple theme changer button and when click on any color button background theme will be changed based on theme selection.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="959" alt="Capture11" src="https://github.com/mukeshmishrra/React-Framework/assets/88608361/d2ded791-8512-4654-9b06-b1c276b8d7f5">
