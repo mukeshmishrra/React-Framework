@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState, useRef } from "react";
 
 const App = () => {
   // Variables
@@ -26,6 +26,16 @@ const App = () => {
   }, [length, isNumberAllowed, isCharAllowed, setPassword]);
 
 
+  // useRef Hook 
+  const passwordRef = useRef(null);
+
+  const copyToClipboard = useCallback(()=> {
+    
+    // passwordRef.current?.setSelectionRange(0,50)
+    window.navigator.clipboard.writeText(password)
+    alert("Copied clipboard")
+  }, [password])
+
   useEffect(() => {
     passwordGenerator();
   }, [length, isNumberAllowed, isCharAllowed, passwordGenerator])
@@ -47,7 +57,10 @@ const App = () => {
             readOnly
           />
 
-          <button className="bg-blue-500 text-white p-2 mb-4 hover:bg-blue-600">
+          <button className="bg-blue-500 text-white p-2 mb-4 hover:bg-blue-600"
+          ref={passwordRef}
+          onClick={copyToClipboard}
+          >
             Copy
           </button>
         </div>
